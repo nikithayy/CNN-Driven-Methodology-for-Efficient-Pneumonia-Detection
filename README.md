@@ -40,25 +40,31 @@ The Dataset Structure is:
 ![Dataset Structure](Dataset_Structure.png)
 
 ## Usage
+
 1. **Data Preprocessing:**
-   -Images are resized to 224x224 pixels for compatibility with ResNet-50.
-   -Grayscale images are converted to RGB.
-   -Pixel values are normalized to the range [0, 1].
-   -SMOTE (Synthetic Minority Over-sampling Technique) is applied to address class imbalance.
+   - Images are resized to 224x224 pixels for compatibility with ResNet-50.
+   - Grayscale images are converted to RGB.
+   - Pixel values are normalized to the range [0, 1].
+   - SMOTE (Synthetic Minority Over-sampling Technique) is applied to address class imbalance.
+
 2. **Model Architecture:**
-   -**ResNet-50** is used as the base model for feature extraction. The model is pre-trained on ImageNet and fine-tuned for pneumonia detection.
-   -The base model layers are frozen initially and then unfrozen for fine-tuning.
-   -A custom classification head is added with dense layers and a sigmoid output for binary classification.
+   - **ResNet-50** is used as the base model for feature extraction. The model is pre-trained on ImageNet and fine-tuned for pneumonia detection.
+   - The base model layers are frozen initially and then unfrozen for fine-tuning.
+   - A custom classification head is added with dense layers and a sigmoid output for binary classification.
+
 3. **Model Training:**
-   -The model is trained for 10 epochs with a **batch size of 32** using the **Adam optimizer** and **binary cross-entropy loss.**
-   -Data augmentation is applied during training to improve generalization.
-   -The model is evaluated using the validation set and tested on the test set.
+   - The model is trained for 10 epochs with a **batch size of 32** using the **Adam optimizer** and **binary cross-entropy loss**.
+   - Data augmentation is applied during training to improve generalization.
+   - The model is evaluated using the validation set and tested on the test set.
+
 4. **Performance Evaluation:**
-   -The model’s performance is evaluated using accuracy, precision, recall, F1-score, AUC-ROC, and confusion matrix.
-   -A ROC curve is plotted, and the AUC score is computed to assess model performance.
+   - The model’s performance is evaluated using accuracy, precision, recall, F1-score, AUC-ROC, and confusion matrix.
+   - A ROC curve is plotted, and the AUC score is computed to assess model performance.
 
 ## Results
-1.**Training Accuracy:** 91.2%
+
+1. **Training Accuracy:** 91.2%
 2. **Test Accuracy:** 87.0%
 3. **AUC-ROC:** 0.513
 4. **Confusion Matrix:** Provides insight into false positives, false negatives, true positives, and true negatives.
+
