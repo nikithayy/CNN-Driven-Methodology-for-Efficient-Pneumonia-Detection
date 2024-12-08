@@ -25,7 +25,7 @@ This project implements a deep learning model to classify **chest X-ray images**
 ## Installation
 1. Clone the repository or download the notebook:
    ```bash
-   git clone https://github.com/nikithayy/pneumonia-detection.git
+   git clone https://github.com/nikithayy/CNN-Driven-Methodology-for-Efficient-Pneumonia-Detection.git
 2. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
