@@ -31,13 +31,21 @@ This project implements a deep learning model to classify **chest X-ray images**
    pip install -r requirements.txt
 
 ## Dataset
+
 The dataset used in this project consists of **chest X-ray images** categorized into two classes: **Normal** and **Pneumonia**. The data is split into:
 - **Training Set**: Used to train the model.
 - **Validation Set**: Used to tune the model's hyperparameters.
 - **Test Set**: Used to evaluate the model's performance on unseen data.
-Each image is resized to **224x224 pixels** to be compatible with **ResNet-50.**
-The Dataset Structure is:
+
+Each image is resized to **224x224 pixels** to be compatible with **ResNet-50**.
+
+The dataset can be downloaded from the following link:
+[Download Chest X-ray Pneumonia Dataset](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia?resource=download)
+
+### Dataset Structure
+
 ![Dataset Structure](Dataset_Structure.png)
+
 
 ## Usage
 
