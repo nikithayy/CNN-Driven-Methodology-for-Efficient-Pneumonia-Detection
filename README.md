@@ -57,7 +57,7 @@ Each image is resized to **224x224 pixels** to be compatible with **ResNet-50.**
    -A ROC curve is plotted, and the AUC score is computed to assess model performance.
 
 ## Results
--**Training Accuracy:** 91.2%
--**Test Accuracy:** 87.0%
--**AUC-ROC:** 0.513
--**Confusion Matrix:** Provides insight into false positives, false negatives, true positives, and true negatives.
+1.**Training Accuracy:** 91.2%
+2. **Test Accuracy:** 87.0%
+3. **AUC-ROC:** 0.513
+4. **Confusion Matrix:** Provides insight into false positives, false negatives, true positives, and true negatives.
