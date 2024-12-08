@@ -63,7 +63,7 @@ The Dataset Structure is:
 
 ## Results
 
-1. **Training Accuracy:** 91.2%
+1. **Training Accuracy:** 98.72%
 2. **Test Accuracy:** 87.0%
 3. **AUC-ROC:** 0.513
 4. **Confusion Matrix:** Provides insight into false positives, false negatives, true positives, and true negatives.
