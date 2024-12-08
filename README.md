@@ -35,8 +35,9 @@ The dataset used in this project consists of **chest X-ray images** categorized 
 - **Training Set**: Used to train the model.
 - **Validation Set**: Used to tune the model's hyperparameters.
 - **Test Set**: Used to evaluate the model's performance on unseen data.
-![Dataset Structure](Dataset_Structure.png)
 Each image is resized to **224x224 pixels** to be compatible with **ResNet-50.**
+The Dataset Structure is:
+![Dataset Structure](Dataset_Structure.png)
 
 ## Usage
 1. **Data Preprocessing:**
