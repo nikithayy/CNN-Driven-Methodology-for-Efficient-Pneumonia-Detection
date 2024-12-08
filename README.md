@@ -22,11 +22,6 @@ This project implements a deep learning model to classify **chest X-ray images**
   - imbalanced-learn (for SMOTE)
   - matplotlib
 
-## Installation
-1. Clone the repository or download the notebook:
-   ```bash
-   git clone https://github.com/nikithayy/CNN-Driven-Methodology-for-Efficient-Pneumonia-Detection.git
-
 ## Dataset
 
 The dataset used in this project consists of **chest X-ray images** categorized into two classes: **Normal** and **Pneumonia**. The data is split into:
